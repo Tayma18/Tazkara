@@ -1,16 +1,20 @@
-# React + Vite
+#  Tazkara – Movies & TV Shows App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tazkara is a simple web app to browse trending movies and TV shows, search, and save favorites. Data from TMDB API.
 
-Currently, two official plugins are available:
+## Features
+- Trending movies and TV shows
+- Details page for each (poster, rating, story, cast)
+- Add to favorites (saved in browser)
+- Search movies or shows
+- Responsive design (mobile/tablet/desktop)
+- Arabic language
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies
+- React 18, React Router, TailwindCSS, Swiper.js, TMDB API, Vite
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to run locally
+1. Clone: `git clone https://github.com/Tayma18/tazkara.git`
+2. `cd tazkara`
+3. `npm install`
+4. Get API key from [TMDB](https://www.themoviedb.org/) and create `.env` file:
